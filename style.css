@@ -155,6 +155,8 @@ font-weight: 700;
 }
 /*end of banner section*/
 
+
+
 /*this is main section*/
 .main-container{
   display: flex;
@@ -184,6 +186,7 @@ font-weight: 700;
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+
 }
 .main-title p {
   color: #534C64;
@@ -214,8 +217,12 @@ line-height: 45px;
   padding: 15px 25px;
   border: 0;
   color: #FFF;
-  font-size: 1rem;}
+  font-size: 1rem;
+  
+}
 /*End main section*/ 
+
+
 
 
 
@@ -243,7 +250,7 @@ line-height: 45px;
 /*The header banner section*/
 @media screen and (max-width:576px){
   .banner-container{
- flex-direction: column;
+ flex-direction: column-reverse;
   }
   .banner-title{
     width: 100%;
@@ -270,3 +277,46 @@ line-height: 45px;
   }
 }
 /*end header section meadia */
+
+
+
+/*This is main section*/
+@media screen and (max-width:576px){
+  .main-container{
+    flex-direction: column;
+  
+  }
+  .main-img{
+    width: 100%;
+  }
+  .main-title h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .main-title p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 20px; 
+    text-align: center;
+  }
+  .main-title .btn-info{
+   width: 100%;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   
+  }
+  .main-info{
+    flex-direction: column;
+  }
+  .main-info .p-info {
+    font-size: 1rem;
+    font-weight: 500;
+    }
+  .main-info .span-info{
+    font-size: 1rem;
+    font-weight: 700;
+   }
+  
+ }
+ /*End of the main section*/
