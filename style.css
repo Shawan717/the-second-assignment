@@ -153,9 +153,12 @@ font-weight: 700;
   color: #FFF;
   font-size: 1rem;
 }
-
-
 /*end of banner section*/
+
+
+
+
+
 
 /*nev section meadia */
 @media screen and (max-width:576px){
@@ -204,4 +207,4 @@ font-weight: 700;
     padding: 10px 20px;
   }
 }
-
+/*end header section meadia */
