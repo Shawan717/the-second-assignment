@@ -1,0 +1,106 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Work+Sans&display=swap');
+body{
+font-family: 'Work Sans', sans-serif;
+}
+
+
+/*this is nav section*/
+
+.nav-contact-container{
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  
+}
+
+.nav-container{
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  min-height: 500%;
+  max-width: 1400px;
+  margin: 35px auto;
+}
+
+.logo-contianer{
+  display: flex;
+  width: 50%;
+ 
+}
+.logo-contianer img{
+  width: 60px;
+  margin-right: 20px;
+  
+}
+.logo-contianer p{
+  color: #0B0223;
+font-size: 2.8rem;
+font-weight: 700;
+
+  
+}
+.logo-title{
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+ background-clip: text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+.nav-title-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  
+}
+.nav-title-container a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #3C354F;
+}
+.nav-title-container .follow-btn{
+
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.10);
+  padding: 15px 20px;
+ 
+}
+
+.follow-btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+.follow-btn .fa-tiktok{
+  background-image: linear-gradient(to top ,
+  #000000,#F00044);
+  color: transparent;
+  -webkit-background-clip: text ;
+}
+
+
+
+/*end of nev section*/
+
+/*nev section meadia */
+@media screen and (max-width:576px){
+  .nav-container{
+  flex-direction: column;
+  }
+  .nav-title-container{
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .follow-btn{
+    margin: 20px;
+
+  }
+}
+/*end nev section meadia */
