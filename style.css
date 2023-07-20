@@ -477,8 +477,60 @@ border: 5px solid #F948B2;
 }   
 /* This is careers section  */
 
+/*This is people section*/
+
+.people-container{
+  height: 400px;
+  display: flex;
+  align-items: center;
+
+}
+.people-contact{
+  
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  gap: 35px;
+  width: 100%;
+  justify-content: center;
+  
+  
+  
+  
+}
+.people-info{
+  display: flex;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  
+  
+}
+.people-info:hover{
+  border: 2px solid #F948B2;
+  border-radius: 40px;
+  color: #F948B2;
+  transition: all .4s;
+}
+.people-info:hover p{
+  color: #F948B2;
+  transition: all .3s;
+}
+.people-info p{
+  color: #0B0223;
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+.people-info img{
+  margin-right: 10px;
+}
+/*This is people section*/
+
+
 
   
+
+
 
 
 
