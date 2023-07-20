@@ -902,3 +902,52 @@ footer{
 }
  /*End of People section*/
   
+ /*This is footer section*/
+ 
+ @media screen and (max-width:576px){
+ footer{
+  width: 100%;
+  height: 80vh;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.footer-title p{
+  font-size: 13px;
+}
+.footer-title{
+   
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.footer-icon{
+  display: grid;
+  grid-template-columns: repeat(3,70px);
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.footer-text{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+.footer-privacy{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.footer-privacy p{
+  font-size: 1rem;
+  text-align: center;
+  
+}
+}
+/*end of footer section*/
