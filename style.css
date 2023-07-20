@@ -553,3 +553,35 @@ border: 5px solid #F948B2;
  }
  /*End online gammer section*/
 
+
+ /*this is online gammer section */
+ @media screen and (max-width:576px){
+  .game-container{
+    flex-direction: column;
+  }
+  .image-contract{
+  flex-direction: column;
+    
+  }
+  .game-container h1{
+    color: #0B0223;
+    font-size: 2rem;
+
+    margin-bottom: 20px;
+  }
+  .game-container b{
+   
+    font-size: 2rem;
+   
+    
+}
+.game-container p{
+  font-size: 15px;
+  
+}
+
+
+}
+  /*End online gammer section */
+
+
