@@ -713,7 +713,9 @@ footer{
     font-size: 1rem;
     font-weight: 700;
    }
-  
+       
+       
+
  }
  /*End of the main section*/
 
@@ -775,7 +777,45 @@ footer{
 }
 
 
+
 }
   /*End online gammer section */
 
 
+/* this is main middle section   */
+@media screen and (max-width:576px){
+
+.main-middle-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+
+  flex-direction: column;
+}
+.main-middle-title{
+  text-align: center;
+  width: 300px;
+  margin-left: 0px;
+
+}
+.main-middle-title h1{
+  font-size: 2.7rem;
+  text-align: center;
+}
+.main-middle-title p{
+  text-align: center;
+}
+.main-middle-img img{
+  width: 330px;
+  position: relative;
+}
+.img-info img{
+  width: 150px;
+  position: absolute;
+  left: -30px;
+  bottom: -60px;
+}
+}
+/*End main middle section   */
