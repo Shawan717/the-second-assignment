@@ -479,13 +479,13 @@ border: 5px solid #F948B2;
 
 /*This is people section*/
 
-.people-container{
+.peo-container{
   height: 400px;
   display: flex;
   align-items: center;
 
 }
-.people-contact{
+.peo-contact{
   
   display: grid;
   grid-template-columns: repeat(5, 250px);
@@ -497,7 +497,7 @@ border: 5px solid #F948B2;
   
   
 }
-.people-info{
+.peo-info{
   display: flex;
   align-items: center;
   border: 2px solid transparent;
@@ -505,23 +505,23 @@ border: 5px solid #F948B2;
   
   
 }
-.people-info:hover{
+.peo-info:hover{
   border: 2px solid #F948B2;
   border-radius: 40px;
   color: #F948B2;
   transition: all .4s;
 }
-.people-info:hover p{
+.peo-info:hover p{
   color: #F948B2;
   transition: all .3s;
 }
-.people-info p{
+.peo-info p{
   color: #0B0223;
   font-size: 16px;
   font-weight: 600;
   
 }
-.people-info img{
+.peo-info img{
   margin-right: 10px;
 }
 /*End people section*/
@@ -880,3 +880,6 @@ footer{
   }
 }
 /*End of careers section*/
+
+
+/*This is people section*/
