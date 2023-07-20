@@ -819,3 +819,38 @@ footer{
 }
 }
 /*End main middle section   */
+
+/*This is last middle section*/
+@media screen and (max-width:576px){
+ 
+        
+ .last-middle-container{
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 30px;
+  width: 100%;
+
+}
+.last-middle-img img{
+  position: relative;
+  margin-top: 40px;
+   width: 330px;
+  
+}
+.last-middle-img-info img{
+  position: absolute;
+  width: 150px;
+  right: -30px;
+  bottom: -60px;
+}
+.last-middle-title{
+  text-align: center;
+  width: 100%;
+  margin-right: 0px;
+}
+.last-middle-title p{
+  text-align: center;
+}
+}
+
+/*End last middle section*/
