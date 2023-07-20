@@ -854,3 +854,29 @@ footer{
 }
 
 /*End last middle section*/
+
+
+ /* This is careers section  */
+ @media screen and (max-width:576px){
+  .careers-container{
+    padding: 25px;
+    width: 100%;
+    height: 120vh;
+    border-radius: 8px;
+  }
+  .careers-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .careers-title{
+    margin-left: 0;
+    width: 300px;
+  }
+
+  .careers-img img{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+  }
+}
+/*End of careers section*/
